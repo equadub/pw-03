@@ -4,6 +4,12 @@
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
+button {
+    color: #343a40 !important;
+    border: white !important;
+    background-color: white !important;
+}
+
 h1, p, h2 {
     color: white;
 }
@@ -46,7 +52,7 @@ h1, .navbar-brand {
 h2 {
     font-style: italic;
     text-align: center;
-    font-size: 14;
+    font-size: 27px;
     -webkit-text-fill-color: black; /* Will override color (regardless of order) */
     text-shadow:
   -1px -1px 0 white,  
@@ -77,4 +83,8 @@ h2 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.gray {
+    color: lightgray;
 }
