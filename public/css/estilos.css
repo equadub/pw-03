@@ -5,9 +5,9 @@
 }
 
 button {
-    color: #343a40 !important;
+    color: white !important;
     border: white !important;
-    background-color: white !important;
+    background-color: rgba(200, 200, 200, .5) !important;
 }
 
 h1, p, h2 {
